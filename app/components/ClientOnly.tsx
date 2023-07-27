@@ -12,7 +12,7 @@ const ClientOnly : React.FC<ClientOnlyProps> = ({children}) =>{
 
     useEffect(() => {
         setHasMounted(true);
-    })
+    },[setHasMounted])
 
     if(!hasMounted){
         return null;
