@@ -23,27 +23,27 @@ export default function Home() {
             {/* TOP SECTION */}
 
         <div className='flex flex-col'>
-            <div className='hidden-cls'>
+            <div className=''>
               <Heading title='Integrate AI Throughtout Your Workflow' combination="bg-gradient-to-r from-fuchsia-500 via-fuchsia-100 to-indigo-600" gradient center/>
             </div>
-            <div className='mt-10 hidden-cls'>
+            <div className='mt-10 '>
               <Heading title='Code Doctor' center/>
             </div>
-            <div className='mt-10 hidden-cls'>
+            <div className='mt-10 '>
               <Heading subtitle='Make process where AI collaborates with your team throughtout' center/>
               <Heading subtitle='the whole developement process.' center/>
             </div>
-            <div className='mb-10 mt-5 hidden-cls'>
+            <div className='mb-10 mt-5 '>
               <Input/>
             </div>
-            <div className='flex justify-center items-center mt-10 relative hidden-cls'>
+            <div className='flex justify-center items-center mt-10 relative '>
               <Image src="/images/robo-back.png" alt='background' className='absolute top-0' width="1200" height="1200" />
               <Image src="/images/robot.png" alt='Robot' width="1300" height="1300"/>
             </div>
 
             {/* MID SECTION */}
 
-            <div className='mt-28 hidden-cls'>
+            <div className='mt-28 '>
               <Heading title='Boost the speed of your development and test' combination='bg-gradient-to-r from-indigo-600 to-fuchsia-500' gradient center/>
               <Heading title='cycles.' gradient center combination='bg-gradient-to-r from-indigo-600 to-fuchsia-500' />
               <Heading subtitle='With AI-driven test case generation and code analysis, problems may be found and fixed' center/>
@@ -73,7 +73,7 @@ export default function Home() {
 
             {/* LOWER SECTION */}
 
-            <div className='mt-14 hidden-cls'>
+            <div className='mt-14 '>
               <Heading title='Use AI to handle workflows in your chat platforms.' combination='bg-gradient-to-r from-indigo-600 to-fuchsia-500' gradient center/>
               
               <div className='flex flex-col md:flex-row justify-between items-center'>
@@ -90,11 +90,11 @@ export default function Home() {
 
             </div>
 
-            <div className='mt-24 hidden-cls'>
+            <div className='mt-24 '>
               <Heading title='Automate all aspects of your delivery process with' combination="bg-gradient-to-r from-fuchsia-500 via-fuchsia-100 to-indigo-600" gradient center/>
               <Heading title='AI support.' combination="bg-gradient-to-r from-fuchsia-500 via-fuchsia-100 to-indigo-600" gradient center/>
             </div>
-            <div className='mt-12 hidden-cls'>
+            <div className='mt-12 '>
               <Heading subtitle='Get Early Access' center/>
               <Input/>
             </div>
@@ -103,7 +103,7 @@ export default function Home() {
 
       {/* FOOTER */}
 
-        <div className='mt-16 -mb-16 hidden-cls'>
+        <div className='mt-16 -mb-16 '>
             <p className='text-center text-white'>Copyright © 2023 <span className='font-bold'> EXOCODE TECHNOLOGIES </span> | ALL rights reserved</p>
         </div>
     </ClientOnly>
