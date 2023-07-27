@@ -14,29 +14,7 @@ import FeatureCard1 from './components/Cards/FeatureCard1'
 
 export default function Home() {
 
-  const observer = new IntersectionObserver((entries)=>{
-    //console.log("The observer just ran");
-    entries.forEach((entry) => {
-      if(entry.isIntersecting){
-        entry.target.classList.add('show');
-      }
-      //? Uncomment to run animation multiple times
-      // else{
-      //   entry.target.classList.remove('show');
-      // }
-    })
-  })
-
-  const hiddenElements = document.querySelectorAll('.hidden-cls');
-
-  const dummyFunction = async() => {
-    console.log("The dummy func ran !");
-    hiddenElements.forEach((el) => observer.observe(el));
-  }
-
-  useEffect(() => {
-    dummyFunction();
-  }, [dummyFunction])
+  
 
   return(
     <ClientOnly>
